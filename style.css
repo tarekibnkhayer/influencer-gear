@@ -1,7 +1,116 @@
+/* shared style */
+body{
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;}
+.description{
+    color: #3A3A3A;
+font-weight: 600;
+}
 /* variables declare */
 :root{
     --bg:#FFF;
     --foot-bg:#0A0826;
+}
+/* nav section */
+nav{
+    display: flex;
+    gap: 30.8rem;
+    margin: 6rem 7.5rem 5rem 7.5rem;
 
 
+}
+.nav-bar>ul{
+    display: flex;
+    list-style: none;
+    gap: 2.1em;
+}
+.nav-title{
+    color: #3A3A3A;
+font-size: 1.5rem;
+font-weight: 700;
+}
+.nav-bar>ul>li{
+    color: #3A3A3A;
+font-weight: 600;
+}   
+/* journey section */
+.journey-content{
+   margin-left: 7.5rem;
+}
+.journey-title{
+    color: #3A3A3A;
+font-size: 3.25rem;
+font-weight: 700;
+}
+.journey-btn{
+    padding: .625rem 1.5rem;
+    border-radius: 41px;
+background: #E02C6D;
+display: inline-flex;
+align-items: flex-start;
+gap: 8px;
+border: none;
+align-items: center;
+justify-content: center;
+color: #FFF;
+font-weight: 700;
+}
+.journey-img{
+margin-right: 8.25rem;
+background-image: url("./images/Circle\ design.svg");
+}
+.journey-img>img{
+    position: relative;
+    top: 2.5rem;
+    left: .5rem;
+}
+.journey-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+
+
+
+/* responsive for mobiles */
+@media screen and (max-width: 576px) {
+    nav{
+       display: none;
+    }
+    .nav-for-mobile{
+        display: flex;
+        align-items: center;
+        margin: 41px 0px;
+        justify-content: center;
+        gap: 42px;
+       
+    }
+    .journey-container{
+        flex-direction: column-reverse;
+        max-width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .journey-img{
+        margin-right: 0;
+        background-size: cover;
+        width: 257px;
+        height: 257px;
+    }
+    .journey-content {
+        margin-left: 3rem;
+    }
+    .journey-img>img{
+        height: 190px;
+        width: 202px;
+    }
+  
+}
+/* jeno nav for mobile big screen e na dekha jai */
+@media screen and (min-width: 577px) {
+    
+    .nav-for-mobile{
+        display: none;
+    }
 }
