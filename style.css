@@ -122,6 +122,21 @@ font-style: normal;
 font-weight: 500;
 line-height: 40px; /* 142.857% */
 }
+.see-more{
+    color: rgba(224, 44, 109, 0.87);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 1200px;
+margin-right: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+margin-top: 50px;
+}
 
 
 /* responsive for mobiles */
@@ -180,6 +195,10 @@ height: 17.747px;
         width: 95%;
         box-shadow: 0;
     }
+.see-more{
+    margin: 0;
+    margin-top: 15px;
+}
   
 }
 /* jeno nav for mobile big screen e na dekha jai */
