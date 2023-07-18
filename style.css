@@ -118,6 +118,19 @@ max-height: 3306px;
         height: 190px;
         width: 202px;
     }
+    .sponsors{
+        grid-template-columns: repeat(4,1fr);
+        margin: 42px;
+        border: 0;
+        gap: 20px;
+        
+    }
+    .logo{
+        width: 44.41px;
+height: 17.747px;
+
+
+    }
   
 }
 /* jeno nav for mobile big screen e na dekha jai */
