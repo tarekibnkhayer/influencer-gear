@@ -69,6 +69,19 @@ background-image: url("./images/Circle\ design.svg");
     justify-content: space-between;
     align-items: center;
 }
+/* sponsors section */
+.sponsors{
+    display: grid;
+   grid-template-columns: repeat(7,1fr);
+   margin: 10.3rem;
+   border: .0000000000000000002px solid grey;
+   padding: 30px;
+   align-items: center;
+   justify-content: center;
+  max-width: 1440px;
+max-height: 3306px;
+  
+}
     
 
 
